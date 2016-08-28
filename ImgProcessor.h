@@ -13,8 +13,7 @@ class ImgProcessor {
 	public:
 		ImgProcessor();
 	    Mat find_face(Mat frame, Size size);
-	    void get_contours(Mat src, int x, int y, int w, int h);
-	    void crop_face();
+	    Mat crop_face(Mat src, int x, int y, int w, int h);
 	private:
 		String face_cascade_name = "haarcascade_frontalface_alt.xml";
 		CascadeClassifier face_cascade;

@@ -1,7 +1,7 @@
 # Facecorp
 
 ## 1. Description
-This programm extact the biggest face from the rest of image and write it to video file.  
+This programm extact the biggest face from the rest of image and write it to video file.
 It do following steps:
  1. Find biggest face region
  2. Aply face mask to this region
